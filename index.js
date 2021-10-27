@@ -63,7 +63,7 @@ async function run() {
       const query={_id:ObjectId(id)};
       const result=await servicesCollection.deleteOne(query);
       res.json(result)
-    })
+    }) 
 
 
 
